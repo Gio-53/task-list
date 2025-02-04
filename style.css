@@ -36,3 +36,4 @@ button{
     font-weight: bold;
     align-self: center;
 }
+input.disabled = !input.disabled;
