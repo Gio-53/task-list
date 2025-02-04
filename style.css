@@ -36,4 +36,28 @@ button{
     font-weight: bold;
     align-self: center;
 }
-input.disabled = !input.disabled;
+.single-task{
+    width: 80%;
+    margin: 0 auto;
+    height: 36px;
+}
+input{
+    outline: none;
+    width: 80%;
+    height: 24px;
+    padding: 6px;
+    margin: 6px;
+}
+
+.done-btn{
+    background-color: #B1C29E;
+    color: #000;
+    border: 1px solid #000;
+    margin-top: 6px;
+}
+
+.done input{
+    background-color: #B1C29E ;
+    text-decoration: line-through;
+    outline: none;
+}
